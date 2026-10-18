@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f5ef">
+    <meta name="description" content="Find your own island rhythm in Marinduque. Explore quiet beaches, mountain trails, and the traditions of the heart of the Philippines.">
+    <title>Lakbay Marinduque — Find your island rhythm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Lakbay Marinduque home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span class="brand-name">lakbay<span>marinduque</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#discover">Discover</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#culture">Our culture</a>
+        <a class="nav-cta" href="#plan">Plan your trip <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="A tropical island coastline with clear blue water"></div>
+        <div class="hero-content">
+          <p class="eyebrow light-eyebrow"><span></span> MIMAROPA · PHILIPPINES</p>
+          <h1 id="hero-title">Find your<br>island <em>rhythm.</em></h1>
+          <p class="hero-copy">Slow down, look closer, and discover the heart of the Philippines in Marinduque.</p>
+          <a class="button button-light" href="#discover">Explore the island <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-caption"><span>13° 23' N &nbsp; 121° 58' E</span><span>THE HEART OF THE PHILIPPINES</span></div>
+        <div class="hero-note"><span class="note-line"></span><span>A little closer<br>to somewhere special</span></div>
+      </section>
+
+      <section class="intro section-wrap" id="discover">
+        <div class="intro-label">
+          <p class="eyebrow"><span></span> A DIFFERENT KIND OF GETAWAY</p>
+        </div>
+        <div class="intro-copy">
+          <h2>Small island.<br><em>Big-hearted</em> stories.</h2>
+          <p>Set in the heart of the Philippines, Marinduque is made for the curious. Follow coastal roads to hidden coves, wander into a town fiesta, and let the island show you what it means to feel at home.</p>
+          <a class="text-link" href="#culture">Get to know Marinduque <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="intro-stamp" aria-hidden="true"><span>MAAYONG</span><strong>BIYAHE</strong><span>HAVE A GOOD JOURNEY · 13°N</span></div>
+      </section>
+
+      <section class="experiences section-wrap" id="experiences">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> MAKE IT YOURS</p>
+            <h2>Ways to <em>wander.</em></h2>
+          </div>
+          <p class="section-aside">Every turn leads somewhere<br>worth taking your time.</p>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter experiences">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All experiences</button>
+          <button class="filter-button" type="button" data-filter="coast" aria-pressed="false">By the water</button>
+          <button class="filter-button" type="button" data-filter="nature" aria-pressed="false">Outdoors</button>
+          <button class="filter-button" type="button" data-filter="culture" aria-pressed="false">Local life</button>
+        </div>
+
+        <div class="destination-grid">
+          <article class="destination-card card-large" data-category="coast">
+            <a class="card-image image-beach" href="#plan" aria-label="Plan a visit to Poctoy White Beach">
+              <span class="card-number">01 / COAST</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="card-details"><div><h3>Poctoy White Beach</h3><p>Torijos · Barefoot afternoons</p></div><span class="card-icon" aria-hidden="true">↗</span></div>
+          </article>
+
+          <article class="destination-card" data-category="nature">
+            <a class="card-image image-mountain" href="#plan" aria-label="Plan a visit to Mount Malindig">
+              <span class="card-number">02 / OUTDOORS</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="card-details"><div><h3>Mount Malindig</h3><p>Buenavista · A trail worth taking</p></div><span class="card-icon" aria-hidden="true">↗</span></div>
+          </article>
+
+          <article class="destination-card" data-category="culture">
+            <a class="card-image image-festival" href="#culture" aria-label="Discover the Moriones Festival">
+              <span class="card-number">03 / LOCAL LIFE</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="card-details"><div><h3>Moriones Festival</h3><p>Across the island · A living tradition</p></div><span class="card-icon" aria-hidden="true">↗</span></div>
+          </article>
+        </div>
+        <p class="filter-empty" hidden>No experiences in this collection just yet. Try another filter.</p>
+      </section>
+
+      <section class="culture" id="culture">
+        <div class="culture-image" role="img" aria-label="Colorful Filipino festival masks and handmade details"></div>
+        <div class="culture-content">
+          <p class="eyebrow light-eyebrow"><span></span> MORE THAN A PLACE</p>
+          <h2>Come for the island.<br><em>Stay for the stories.</em></h2>
+          <p>Every Holy Week, the streets fill with the color and pageantry of the Moriones Festival. Meet the masked Morions, hear the story behind the tradition, and feel a community come together.</p>
+          <a class="button button-outline" href="#plan">Experience it with care <span aria-hidden="true">↗</span></a>
+          <span class="culture-note">ROOTED HERE, SHARED WITH YOU</span>
+        </div>
+      </section>
+
+      <section class="plan section-wrap" id="plan">
+        <div class="plan-copy">
+          <p class="eyebrow"><span></span> YOUR NEXT GOOD STORY</p>
+          <h2>The island is<br><em>calling.</em></h2>
+        </div>
+        <div class="plan-action">
+          <p>Take the scenic route. Stay for one more sunset. Your Marinduque story starts with a hello.</p>
+          <a class="button button-dark" href="https://philippines.travel/" target="_blank" rel="noreferrer">Start planning <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="plan-decoration" aria-hidden="true">M</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#" aria-label="Lakbay Marinduque home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span class="brand-name">lakbay<span>marinduque</span></span>
+      </a>
+      <p>Made with a little island heart. <span aria-hidden="true">♡</span></p>
+      <a class="back-top" href="#" aria-label="Back to top">BACK TO TOP ↑</a>
+      <span class="footer-copy">© <span id="year"></span> LAKBAY MARINDUQUE</span>
+    </footer>
+  </body>
+</html>
